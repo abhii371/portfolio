@@ -1,0 +1,30 @@
+export default [
+    {
+        id: 0,
+        title: "COVID-India Tracker",
+        imgSrc: "/projects/covid-project/main.webp",
+        imgs: [
+            "/projects/covid-project/2.webp",
+            "/projects/covid-project/3.webp",
+            "/projects/covid-project/4.webp",
+            "/projects/covid-project/5.webp",
+            "/projects/covid-project/6.webp",
+            "/projects/covid-project/7.webp",
+            "/projects/covid-project/8.webp",
+            "/projects/covid-project/9.webp",
+            "/projects/covid-project/10.webp",
+            "/projects/covid-project/11.webp",
+            "/projects/covid-project/12.webp",
+            "/projects/covid-project/13.webp",
+            "/projects/covid-project/14.webp",
+            "/projects/covid-project/15.webp",
+            "/projects/covid-project/16.webp",
+        ],
+        stack: ["HTML", "CSS", "JAVASCRIPT", "API", "CHART.JS", "JAVA", "HIBERNET", "MYSQL"],
+        desc: "This project is an innovative web-application designed to provide users with essential information about the COVID-19 pandemic. The application is built using dynamic APIs, which enable real-time updates of the latest COVID-19 statistics worldwide. In addition to providing users with current statistics, the application also allows users to access daily news updates about the virus. One unique feature of this application is the ability for users to log in and take a test to check for COVID symptoms, providing valuable information that can help in the prevention and spread of the virus. The user interface of the application is designed with two modes, a dark and light mode, which can be easily switched by the user and stored in local storage. Moreover, the application is fully responsive, meaning it can be accessed from various devices with different screen sizes, and it can even be installed as a progressive web application on desktop or mobile devices. Overall, this project offers a comprehensive, user-friendly, and interactive platform for accessing essential information about COVID-19.",
+        link: "https://",
+        gitLink: "",
+        year: "3-2019",
+    },
+  ];
+  
