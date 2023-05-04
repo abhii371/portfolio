@@ -183,8 +183,8 @@ a:active {
 .hero {
   display: grid;
   align-items: center;
-  gap: 1.5rem;
-  grid-template-columns: 60% 40%;
+  gap: 1rem;
+  grid-template-columns: 50% 50%;
   margin: 7rem 1rem;
   /* height: 100vh; */
 }
@@ -195,7 +195,7 @@ a:active {
 }
 .hero > .right {
   display: flex;
-  justify-content: center;
+  justify-content: space-around;
   align-items: center;
   padding: 1rem;
 }
@@ -282,9 +282,7 @@ a:active {
   transform: translate(-30px, -30px);
   
 }
-hr {
-  color: var(--primary);
-}
+
 .heading-box {
   display: flex;
   flex-direction: column;
@@ -301,6 +299,16 @@ hr {
   font-size: 1.2rem;
   font-weight: 500;
 }
+@media screen and (max-width: 1103px) {
+  .hero {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5rem;
+    flex-direction: column;
+  }
+}
+
 .projects {
   display: flex;
   flex-direction: row;
@@ -450,6 +458,23 @@ hr {
   animation: myAnimation 900ms infinite;
 }
 
+@media screen and (max-width: 1000px) {
+  .all-skills {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 2rem;
+    gap: 2rem;
+    justify-content: space-between;
+  }
+  .all-skills .section {
+    width: 100%;
+  }
+  .Skill {
+    filter: grayscale(0);
+  }
+}
 
 @keyframes myAnimation {
   0% {
@@ -519,18 +544,6 @@ hr {
 }
 .Contact .form .textarea-container {
   position: relative;
-}
-.Contact .helloIcon {
-  height: 8rem;
-  z-index: -1;
-  left: 0;
-  top: 20%;
-  rotate: 2deg;
-  position: absolute;
-  transition: var(--transition);
-}
-.Contact .form .textarea-container textarea:hover ~ .helloIcon {
-  top: -20%;
 }
 .Contact .form input:hover,
 .Contact .form textarea:hover {
@@ -613,7 +626,7 @@ hr {
   font-family: cursive;
   color: var(--primary);
 }
-.footer.connect > p {
+.footer .connect > p {
   padding: 1rem 0;
   font-size: 1.3rem;
 }
@@ -625,4 +638,13 @@ hr {
 
 .footer .connect > .social-links > a > img {
   width: 2rem;
+}
+@media screen and (max-width: 1000px) {
+  .footer{
+    flex-direction: column;
+    gap: 2rem;
+  }
+  .footer .connect > p {
+    display: none;
+  }
 }

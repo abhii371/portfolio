@@ -152,8 +152,8 @@ export default function MyTest() {
                 reprehenderit architecto atque optio explicabo
               </p>
               <div className="project-btn">
-                <button>Visit</button>
-                <button>github</button>
+                <button className="button">Visit</button>
+                <button className="button">github</button>
               </div>
             </div>
           </div>
@@ -180,7 +180,7 @@ export default function MyTest() {
               </p>
               <div className="project-btn">
                 <button className="button">Visit</button>
-                <button>github</button>
+                <button className="button">github</button>
               </div>
             </div>
           </div>
@@ -195,8 +195,8 @@ export default function MyTest() {
                 reprehenderit architecto atque optio explicabo
               </p>
               <div className="project-btn">
-                <button>Visit</button>
-                <button>github</button>
+                <button className="button">Visit</button>
+                <button className="button">github</button>
               </div>
             </div>
           </div>
@@ -211,8 +211,8 @@ export default function MyTest() {
                 reprehenderit architecto atque optio explicabo
               </p>
               <div className="project-btn">
-                <button>Visit</button>
-                <button>github</button>
+                <button className="button">Visit</button>
+                <button className="button">github</button>
               </div>
             </div>
           </div>
@@ -227,8 +227,8 @@ export default function MyTest() {
                 reprehenderit architecto atque optio explicabo
               </p>
               <div className="project-btn">
-                <button>Visit</button>
-                <button>github</button>
+                <button className="button">Visit</button>
+                <button className="button">github</button>
               </div>
             </div>
           </div>
@@ -243,8 +243,8 @@ export default function MyTest() {
                 reprehenderit architecto atque optio explicabo
               </p>
               <div className="project-btn">
-                <button>Visit</button>
-                <button>github</button>
+                <button className="button">Visit</button>
+                <button className="button">github</button>
               </div>
             </div>
           </div>
